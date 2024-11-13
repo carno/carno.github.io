@@ -7,34 +7,26 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://blog.carno.pl/</loc>
-  <lastmod>2024-11-13T22:12:00Z</lastmod>
+  <lastmod>2024-11-13T23:01:00Z</lastmod>
  </url>
  <url>
   <loc>https://blog.carno.pl/2024/</loc>
-  <lastmod>2024-11-13T22:12:00Z</lastmod>
+  <lastmod>2024-11-13T23:01:00Z</lastmod>
  </url>
  <url>
   <loc>https://blog.carno.pl/archive.html</loc>
-  <lastmod>2024-11-13T22:30:00Z</lastmod>
+  <lastmod>2024-11-13T23:01:00Z</lastmod>
  </url>
  <url>
   <loc>https://blog.carno.pl/categories/</loc>
-  <lastmod>2024-11-13T22:12:00Z</lastmod>
+  <lastmod>2024-11-13T23:01:00Z</lastmod>
  </url>
  <url>
   <loc>https://blog.carno.pl/categories/hello/</loc>
-  <lastmod>2024-11-13T22:12:00Z</lastmod>
- </url>
- <url>
-  <loc>https://blog.carno.pl/galleries/</loc>
-  <lastmod>2024-11-13T22:12:00Z</lastmod>
- </url>
- <url>
-  <loc>https://blog.carno.pl/listings/</loc>
-  <lastmod>2024-11-13T22:12:00Z</lastmod>
+  <lastmod>2024-11-13T23:01:00Z</lastmod>
  </url>
  <url>
   <loc>https://blog.carno.pl/posts/hello-world/</loc>
-  <lastmod>2024-11-13T22:12:00Z</lastmod>
+  <lastmod>2024-11-13T23:01:00Z</lastmod>
  </url>
 </urlset>
