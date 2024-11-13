@@ -1,0 +1,4 @@
+Sitemap: https://blog.carno.pl/sitemapindex.xml
+
+User-Agent: *
+Host: blog.carno.pl
