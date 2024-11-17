@@ -1,4 +1,7 @@
-on: [push]
+on:
+  push:
+    branches:
+      - src
 
 jobs:
   nikola_build:
