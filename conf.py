@@ -230,7 +230,7 @@ TIMEZONE = "Europe/Warsaw"
 # Date format used to display post dates. (translatable)
 # Used by babel.dates, CLDR style: http://cldr.unicode.org/translation/date-time-1/date-time
 # You can also use 'full', 'long', 'medium', or 'short'
-# DATE_FORMAT = 'yyyy-MM-dd HH:mm'
+DATE_FORMAT = 'dd/MM/yyyy'
 
 # Date format used to display post dates, if local dates are used. (translatable)
 # Used by Luxon: https://moment.github.io/luxon/docs/manual/formatting
@@ -822,8 +822,8 @@ GALLERIES_DEFAULT_THUMBNAIL = None
 # Panoramas (aspect ratio over 3:1) get 4x larger thumbnails due to scaling issues.
 
 IMAGE_FOLDERS = {'images': 'images'}
-# IMAGE_THUMBNAIL_SIZE = 400
-# IMAGE_THUMBNAIL_FORMAT = '{name}.thumbnail{ext}'
+IMAGE_THUMBNAIL_SIZE = 400
+IMAGE_THUMBNAIL_FORMAT = '{name}.thumbnail{ext}'
 
 # #############################################################################
 # HTML fragments and diverse things that are used by the templates
@@ -891,7 +891,7 @@ IMAGE_FOLDERS = {'images': 'images'}
 # This list MAY be incomplete since pygments adds styles every now and then.
 # Check with list(pygments.styles.get_all_styles()) in an interpreter.
 #
-# CODE_COLOR_SCHEME = 'default'
+CODE_COLOR_SCHEME = 'one-dark'
 
 # FAVICONS contains (name, file, size) tuples.
 # Used to create favicon link like this:
