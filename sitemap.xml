@@ -7,38 +7,46 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://blog.carno.pl/</loc>
-  <lastmod>2024-11-18T18:58:00Z</lastmod>
+  <lastmod>2024-11-25T21:57:00Z</lastmod>
  </url>
  <url>
   <loc>https://blog.carno.pl/2024/</loc>
-  <lastmod>2024-11-18T18:58:00Z</lastmod>
+  <lastmod>2024-11-25T21:57:00Z</lastmod>
  </url>
  <url>
   <loc>https://blog.carno.pl/archive.html</loc>
-  <lastmod>2024-11-18T18:58:00Z</lastmod>
+  <lastmod>2024-11-25T21:57:00Z</lastmod>
  </url>
  <url>
   <loc>https://blog.carno.pl/categories/</loc>
-  <lastmod>2024-11-18T18:58:00Z</lastmod>
+  <lastmod>2024-11-25T21:57:00Z</lastmod>
  </url>
  <url>
   <loc>https://blog.carno.pl/categories/facilitation/</loc>
-  <lastmod>2024-11-18T18:58:00Z</lastmod>
+  <lastmod>2024-11-25T21:57:00Z</lastmod>
  </url>
  <url>
   <loc>https://blog.carno.pl/categories/food-for-thought/</loc>
-  <lastmod>2024-11-18T18:58:00Z</lastmod>
+  <lastmod>2024-11-25T21:57:00Z</lastmod>
  </url>
  <url>
   <loc>https://blog.carno.pl/categories/hello/</loc>
-  <lastmod>2024-11-18T18:58:00Z</lastmod>
+  <lastmod>2024-11-25T21:57:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://blog.carno.pl/categories/quotes/</loc>
+  <lastmod>2024-11-25T21:57:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://blog.carno.pl/posts/function-of-man/</loc>
+  <lastmod>2024-11-25T21:57:00Z</lastmod>
  </url>
  <url>
   <loc>https://blog.carno.pl/posts/gradients-of-agreement/</loc>
-  <lastmod>2024-11-18T18:58:00Z</lastmod>
+  <lastmod>2024-11-25T21:57:00Z</lastmod>
  </url>
  <url>
   <loc>https://blog.carno.pl/posts/hello-world/</loc>
-  <lastmod>2024-11-18T18:58:00Z</lastmod>
+  <lastmod>2024-11-25T21:57:00Z</lastmod>
  </url>
 </urlset>
