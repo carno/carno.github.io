@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My part of the web</title><link>https://blog.carno.pl/</link><description>A mix of food for thought and what was once called a tech blog with a sprinkle of today I learned</description><atom:link href="https://blog.carno.pl/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:carno@carno.pl"&gt;Carno&lt;/a&gt; </copyright><lastBuildDate>Tue, 21 Jan 2025 23:16:55 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Debian RFC822 control data format</title><link>https://blog.carno.pl/posts/debian-rfc822-control-data-format/</link><dc:creator>Carno</dc:creator><description>&lt;p&gt;So, today I learned that Debian has an alternative format for apt sources.&lt;/p&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My part of the web (Posts about TIL)</title><link>https://blog.carno.pl/</link><description></description><atom:link href="https://blog.carno.pl/categories/til.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:carno@carno.pl"&gt;Carno&lt;/a&gt; </copyright><lastBuildDate>Tue, 21 Jan 2025 23:16:55 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Debian RFC822 control data format</title><link>https://blog.carno.pl/posts/debian-rfc822-control-data-format/</link><dc:creator>Carno</dc:creator><description>&lt;p&gt;So, today I learned that Debian has an alternative format for apt sources.&lt;/p&gt;
 &lt;p&gt;After today's upgrade I noticed a new print in &lt;code&gt;apt update&lt;/code&gt; output, mentioning &lt;code&gt;deb822&lt;/code&gt;&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="https://blog.carno.pl/posts/debian-rfc822-control-data-format/#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt; style for
 storing apt sources.&lt;/p&gt;
 &lt;p&gt;For my own reference, this is how it looks like for repositories I use on my &lt;code&gt;siduction&lt;/code&gt;&lt;sup id="fnref:2"&gt;&lt;a class="footnote-ref" href="https://blog.carno.pl/posts/debian-rfc822-control-data-format/#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt;
@@ -73,85 +73,4 @@ and /etc/apt/keyrings for keyrings managed by the system operator.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://siduction.org"&gt;https://siduction.org&lt;/a&gt; &lt;a class="footnote-backref" href="https://blog.carno.pl/posts/debian-rfc822-control-data-format/#fnref:2" title="Jump back to footnote 2 in the text"&gt;↩&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</description><category>Debian</category><category>TIL</category><guid>https://blog.carno.pl/posts/debian-rfc822-control-data-format/</guid><pubDate>Tue, 21 Jan 2025 22:34:48 GMT</pubDate></item><item><title>Function of man</title><link>https://blog.carno.pl/posts/function-of-man/</link><dc:creator>Carno</dc:creator><description>&lt;p&gt;I like those moments when you rewatch a movie, not expecting much apart from simple entertainment
-and you get hit by a quote that you can't stop thinking about (happens more often as I get closer to
-40th birthday…):&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The proper function of man is to live, not to exist. I shall not waste my days in trying to
-prolong them. I shall use my time.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;The movie is "No Time to Die"&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="https://blog.carno.pl/posts/function-of-man/#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;, the latest addition to the James Bond movie saga, the quote is
-attributed to Jack London&lt;sup id="fnref:2"&gt;&lt;a class="footnote-ref" href="https://blog.carno.pl/posts/function-of-man/#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
-&lt;p&gt;It's actually a part of a longer credo:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;I would rather be ashes than dust! I would rather that my spark should burn out in a brilliant
-blaze than it should be stifled by dry-rot. I would rather be a superb meteor, ever atom of me in
-magnificent glow, than a sleepy and permanent planet. The proper function of man is to live, not
-to exist. I shall not waste my days in trying to prolong them. I shall use my time.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;div class="footnote"&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-&lt;li id="fn:1"&gt;
-&lt;p&gt;&lt;a href="https://www.imdb.com/title/tt2382320"&gt;https://www.imdb.com/title/tt2382320&lt;/a&gt; &lt;a class="footnote-backref" href="https://blog.carno.pl/posts/function-of-man/#fnref:1" title="Jump back to footnote 1 in the text"&gt;↩&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id="fn:2"&gt;
-&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Jack_London#Credo_is_likely_by_London_despite_doubts"&gt;https://en.wikipedia.org/wiki/Jack_London#Credo_is_likely_by_London_despite_doubts&lt;/a&gt; &lt;a class="footnote-backref" href="https://blog.carno.pl/posts/function-of-man/#fnref:2" title="Jump back to footnote 2 in the text"&gt;↩&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;</description><category>food-for-thought</category><category>quotes</category><guid>https://blog.carno.pl/posts/function-of-man/</guid><pubDate>Mon, 25 Nov 2024 21:30:15 GMT</pubDate></item><item><title>Gradients of agreement</title><link>https://blog.carno.pl/posts/gradients-of-agreement/</link><dc:creator>Carno</dc:creator><description>&lt;p&gt;&lt;em&gt;"Facilitator’s Guide to Participatory Decision-Making"&lt;/em&gt;&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="https://blog.carno.pl/posts/gradients-of-agreement/#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt; by
-Sam Kaner with Lenny Lind, Catherine Toldi, Sarah Fisk and Duane Berger is probably my favourite
-resource for anyone who wants to bring their facilitation skills to the next level.&lt;/p&gt;
-&lt;p&gt;One of the concepts shown in it, that made a significant impact on my approach to cooperation is
-definitely gradients of agreement.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://blog.carno.pl/images/posts/gradients-of-agreement.jpg"&gt;&lt;img alt="Gradients of agreement" src="https://blog.carno.pl/images/posts/gradients-of-agreement.jpg" style="display: block; margin: 0 auto" title="Gradients of agreement - Community At Work © 2014"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;While the whole concept is probably worth it's own post, today I would like to focus on the part of
-the scale that changed my approach to communicating while working on a project.&lt;/p&gt;
-&lt;p&gt;Some say that "done is better than perfect" but it's not easy to let go of our vision, of our
-built-in rules and expectations, especially in a world that is highly polarized - you have to be for
-or against, zero or one, no middle ground.&lt;/p&gt;
-&lt;p&gt;And this is where &lt;strong&gt;"Don't Like But Will Support"&lt;/strong&gt; position comes in. Just think about it - do we
-always have to have the perfect agreement? Will the end result of a discussion or code review by any
-better if we continue to dig deeper? Maybe it's already good enough? Maybe it's a matter of personal
-preference? Is it worth the time spent for further discussions?&lt;/p&gt;
-&lt;div class="footnote"&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-&lt;li id="fn:1"&gt;
-&lt;p&gt;&lt;a href="https://communityatwork.com/contents/"&gt;https://communityatwork.com/contents/&lt;/a&gt; &lt;a class="footnote-backref" href="https://blog.carno.pl/posts/gradients-of-agreement/#fnref:1" title="Jump back to footnote 1 in the text"&gt;↩&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;</description><category>facilitation</category><category>food-for-thought</category><guid>https://blog.carno.pl/posts/gradients-of-agreement/</guid><pubDate>Sun, 17 Nov 2024 16:53:34 GMT</pubDate></item><item><title>Hello World!</title><link>https://blog.carno.pl/posts/hello-world/</link><dc:creator>Carno</dc:creator><description>&lt;div class="code"&gt;&lt;pre class="code literal-block"&gt;&lt;span class="nb"&gt;echo&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;'Hello World!'&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id ullamcorper elit. Donec tempus
-consectetur elit quis finibus. Vestibulum eget volutpat diam. Integer accumsan ultrices quam, sed
-pharetra massa pretium et. Curabitur pulvinar libero leo, et mattis dolor convallis eget. Vestibulum
-ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Duis in dolor sit amet
-turpis egestas mattis ullamcorper ut leo. Nullam dapibus dui risus, in euismod arcu fermentum ac.
-Pellentesque in ex odio. Integer tortor risus, sollicitudin congue pharetra id, tincidunt id magna.
-Nam elit tortor, tempus in ultrices eu, iaculis eu ante. Vivamus pharetra semper lectus, a dictum
-sapien iaculis eu.&lt;/p&gt;
-&lt;p&gt;Cras imperdiet erat eu sem varius mollis. Quisque et sagittis neque. Pellentesque habitant morbi
-tristique senectus et netus et malesuada fames ac turpis egestas. Nulla quis vehicula quam. Mauris
-sit amet risus id nisl varius aliquam in in ligula. Duis a diam nisi. Nunc sit amet tincidunt purus.
-Sed scelerisque, diam ut interdum efficitur, nibh ligula faucibus nisi, eu porta eros nisl in nunc.
-Vestibulum feugiat tellus ac enim laoreet, non ullamcorper leo vulputate. Nulla facilisi.
-Pellentesque id feugiat arcu.&lt;/p&gt;
-&lt;p&gt;Pellentesque tristique quam ut arcu sagittis venenatis. Praesent id felis vitae elit mollis semper.
-Morbi lorem nibh, sollicitudin eget urna id, consequat maximus ex. Nunc ultrices erat vel blandit
-aliquam. Aliquam volutpat, magna vel semper laoreet, arcu urna vulputate mauris, a tempus libero
-nibh pharetra ligula. Etiam vel dolor felis. Morbi sed sem ex. Praesent rutrum eros et facilisis
-euismod. Suspendisse potenti. Sed tempus felis est, eget placerat lectus consequat sit amet. Nam
-tincidunt lectus sit amet est rutrum eleifend. Nullam in congue purus.&lt;/p&gt;
-&lt;p&gt;Nulla eget justo hendrerit, vulputate purus a, consectetur nibh. Praesent tempus facilisis nulla,
-vitae tincidunt velit aliquam in. Praesent accumsan augue dui, in suscipit eros luctus ac. Sed
-sodales ex sit amet accumsan pellentesque. Nam molestie nunc id molestie molestie. Nullam ac libero
-et arcu ultrices sagittis. Suspendisse at vulputate mauris. Mauris non urna elit. Ut non est
-molestie, mollis sem quis, pellentesque ante. Orci varius natoque penatibus et magnis dis parturient
-montes, nascetur ridiculus mus.&lt;/p&gt;
-&lt;p&gt;Phasellus aliquam consectetur nisi eu dapibus. Ut fringilla odio vestibulum, vestibulum elit eget,
-rhoncus quam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-curae; Fusce pretium maximus risus, sit amet lobortis lacus ultrices vel. Ut tincidunt quam a
-aliquet commodo. Pellentesque vitae nunc nec ipsum rhoncus viverra et in orci. Quisque non hendrerit
-augue. Quisque ullamcorper eros pharetra posuere aliquam.&lt;/p&gt;</description><category>hello</category><guid>https://blog.carno.pl/posts/hello-world/</guid><pubDate>Wed, 13 Nov 2024 21:57:40 GMT</pubDate></item></channel></rss>
+&lt;/div&gt;</description><category>Debian</category><category>TIL</category><guid>https://blog.carno.pl/posts/debian-rfc822-control-data-format/</guid><pubDate>Tue, 21 Jan 2025 22:34:48 GMT</pubDate></item></channel></rss>

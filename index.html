@@ -10,7 +10,7 @@
 <meta name="generator" content="Nikola (getnikola.com)">
 <link rel="alternate" type="application/rss+xml" title="RSS" hreflang="en" href="rss.xml">
 <link rel="canonical" href="https://blog.carno.pl/">
-<!--[if lt IE 9]><script src="assets/js/html5shiv-printshiv.min.js"></script><![endif]--><link rel="prefetch" href="posts/function-of-man/" type="text/html">
+<!--[if lt IE 9]><script src="assets/js/html5shiv-printshiv.min.js"></script><![endif]--><link rel="prefetch" href="posts/debian-rfc822-control-data-format/" type="text/html">
 </head>
 <body>
     <!-- FIXME: reenable <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a> -->
@@ -47,6 +47,90 @@
     
 
     <article><div class="subtitle tags is-6 is-pulled-right">
+                <a class="subtitle is-6" href="categories/debian/">#Debian</a>
+                |
+                <a class="subtitle is-6" href="categories/til/">#TIL</a>
+        </div>
+        <h2 class="subtitle is-6 date">21/01/2025</h2>
+        <h1 class="title"><a href="posts/debian-rfc822-control-data-format/">Debian RFC822 control data format</a></h1>
+        <div class="content">
+                <p>So, today I learned that Debian has an alternative format for apt sources.</p>
+<p>After today's upgrade I noticed a new print in <code>apt update</code> output, mentioning <code>deb822</code><sup id="fnref:1"><a class="footnote-ref" href="posts/debian-rfc822-control-data-format/#fn:1">1</a></sup> style for
+storing apt sources.</p>
+<p>For my own reference, this is how it looks like for repositories I use on my <code>siduction</code><sup id="fnref:2"><a class="footnote-ref" href="posts/debian-rfc822-control-data-format/#fn:2">2</a></sup>
+installation:</p>
+<p><code>/etc/apt/sources.list.d/debian.sources</code>:</p>
+<div class="code"><pre class="code literal-block"><span class="nt">Components</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">main contrib non-free non-free-firmware</span>
+<span class="nt">Enabled</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">yes</span>
+<span class="nt">Signed-By</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">/usr/share/keyrings/debian-archive-keyring.gpg</span>
+<span class="nt">Suites</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">unstable rc-buggy</span>
+<span class="nt">Types</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">deb</span>
+<span class="nt">URIs</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">https://deb.debian.org/debian/</span>
+</pre></div>
+
+<p><code>/etc/apt/sources.list.d/mozilla.sources</code>:</p>
+<div class="code"><pre class="code literal-block"><span class="nt">Components</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">main</span>
+<span class="nt">Enabled</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">yes</span>
+<span class="nt">Signed-By</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">/etc/apt/keyrings/packages.mozilla.org.asc</span>
+<span class="nt">Suites</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">mozilla</span>
+<span class="nt">Types</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">deb</span>
+<span class="nt">URIs</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">https://packages.mozilla.org/apt/</span>
+</pre></div>
+
+<p><code>/etc/apt/sources.list.d/microsoft-edge.sources</code>:</p>
+<div class="code"><pre class="code literal-block"><span class="nt">Components</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">main</span>
+<span class="nt">Enabled</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">yes</span>
+<span class="nt">Signed-By</span><span class="p">:</span><span class="w">  </span><span class="l l-Scalar l-Scalar-Plain">/etc/apt/trusted.gpg.d/microsoft-edge.gpg</span>
+<span class="nt">Suites</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">stable</span>
+<span class="nt">Types</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">deb</span>
+<span class="nt">URIs</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">http://packages.microsoft.com/repos/edge/</span>
+</pre></div>
+
+<p><code>/etc/apt/sources.list.d/siduction-extra.sources</code>:</p>
+<div class="code"><pre class="code literal-block"><span class="nt">Components</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">main</span>
+<span class="nt">Enabled</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">yes</span>
+<span class="nt">Signed-By</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">/usr/share/keyrings/siduction-archive-keyring.gpg</span>
+<span class="nt">Suites</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">unstable</span>
+<span class="nt">Types</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">deb</span>
+<span class="nt">URIs</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">https://packages.siduction.org/extra/</span>
+</pre></div>
+
+<p><code>/etc/apt/sources.list.d/siduction-fixes.sources</code>:</p>
+<div class="code"><pre class="code literal-block"><span class="nt">Components</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">main contrib non-free</span>
+<span class="nt">Enabled</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">yes</span>
+<span class="nt">Signed-By</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">/usr/share/keyrings/siduction-archive-keyring.gpg</span>
+<span class="nt">Suites</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">unstable</span>
+<span class="nt">Types</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">deb</span>
+<span class="nt">URIs</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">https://packages.siduction.org/fixes/</span>
+</pre></div>
+
+<p><code>/etc/apt/sources.list.d/syncthing.sources</code>:</p>
+<div class="code"><pre class="code literal-block"><span class="nt">Components</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">stable</span>
+<span class="nt">Enabled</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">yes</span>
+<span class="nt">Signed-By</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">/usr/local/share/keyrings/syncthing-archive-keyring.gpg</span>
+<span class="nt">Suites</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">syncthing</span>
+<span class="nt">Types</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">deb</span>
+<span class="nt">URIs</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">https://apt.syncthing.net/</span>
+</pre></div>
+
+<p>In the future I should probably adjust to recommendation for keyrings' storage:</p>
+<blockquote>
+<p>The recommended locations for keyrings are /usr/share/keyrings for keyrings managed by packages,
+and /etc/apt/keyrings for keyrings managed by the system operator.</p>
+</blockquote>
+<div class="footnote">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://manpages.debian.org/unstable/apt/sources.list.5.en.html#DEB822-STYLE_FORMAT">https://manpages.debian.org/unstable/apt/sources.list.5.en.html#DEB822-STYLE_FORMAT</a> <a class="footnote-backref" href="posts/debian-rfc822-control-data-format/#fnref:1" title="Jump back to footnote 1 in the text">↩</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://siduction.org">https://siduction.org</a> <a class="footnote-backref" href="posts/debian-rfc822-control-data-format/#fnref:2" title="Jump back to footnote 2 in the text">↩</a></p>
+</li>
+</ol>
+</div>
+        </div>
+    </article><article><div class="subtitle tags is-6 is-pulled-right">
                 <a class="subtitle is-6" href="categories/food-for-thought/">#food-for-thought</a>
                 |
                 <a class="subtitle is-6" href="categories/quotes/">#quotes</a>
@@ -155,7 +239,7 @@ curae; Fusce pretium maximus risus, sit amet lobortis lacus ultrices vel. Ut tin
 aliquet commodo. Pellentesque vitae nunc nec ipsum rhoncus viverra et in orci. Quisque non hendrerit
 augue. Quisque ullamcorper eros pharetra posuere aliquam.</p>
         </div>
-    </article><script>var disqus_shortname="nikolademo";(function(){var a=document.createElement("script");a.async=true;a.src="https://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script><footer id="footer"><p>Contents © 2024         <a href="mailto:carno@carno.pl">Carno</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         </p>
+    </article><script>var disqus_shortname="nikolademo";(function(){var a=document.createElement("script");a.async=true;a.src="https://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script><footer id="footer"><p>Contents © 2025         <a href="mailto:carno@carno.pl">Carno</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         </p>
             
         </footer>
 </div>
