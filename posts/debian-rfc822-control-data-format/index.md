@@ -14,6 +14,14 @@ So, today I learned that Debian has an alternative format for apt sources.
 After today's upgrade I noticed a new print in `apt update` output, mentioning `deb822`[^1] style for
 storing apt sources.
 
+*Update 30/01/2025:*
+
+With another update `apt` can now migrate the `.list` files to `.sources` format:
+
+```shell
+apt modernize-sources
+```
+
 For my own reference, this is how it looks like for repositories I use on my `siduction`[^2]
 installation:
 

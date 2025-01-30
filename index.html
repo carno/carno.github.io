@@ -57,6 +57,11 @@
                 <p>So, today I learned that Debian has an alternative format for apt sources.</p>
 <p>After today's upgrade I noticed a new print in <code>apt update</code> output, mentioning <code>deb822</code><sup id="fnref:1"><a class="footnote-ref" href="posts/debian-rfc822-control-data-format/#fn:1">1</a></sup> style for
 storing apt sources.</p>
+<p><em>Update 30/01/2025:</em></p>
+<p>With another update <code>apt</code> can now migrate the <code>.list</code> files to <code>.sources</code> format:</p>
+<div class="code"><pre class="code literal-block">apt<span class="w"> </span>modernize-sources
+</pre></div>
+
 <p>For my own reference, this is how it looks like for repositories I use on my <code>siduction</code><sup id="fnref:2"><a class="footnote-ref" href="posts/debian-rfc822-control-data-format/#fn:2">2</a></sup>
 installation:</p>
 <p><code>/etc/apt/sources.list.d/debian.sources</code>:</p>
