@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My part of the web (Posts about linkblog)</title><link>https://blog.carno.pl/</link><description></description><atom:link href="https://blog.carno.pl/categories/linkblog.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:carno@carno.pl"&gt;Carno&lt;/a&gt; </copyright><lastBuildDate>Mon, 07 Jul 2025 20:27:32 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Culture</title><link>https://blog.carno.pl/posts/culture/</link><dc:creator>Carno</dc:creator><description>&lt;p&gt;In yet another instalment of preserving things I kept in Pocket, a note by Jez Humble&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="https://blog.carno.pl/posts/culture/#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;While it was published a while ago, I find it insightful even currently. I especially like to
+revisit the Ron Westrum's model.&lt;/p&gt;
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;&lt;a href="https://continuousdelivery.com/implementing/culture/"&gt;https://continuousdelivery.com/implementing/culture/&lt;/a&gt; &lt;a class="footnote-backref" href="https://blog.carno.pl/posts/culture/#fnref:1" title="Jump back to footnote 1 in the text"&gt;↩&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description><category>linkblog</category><category>pocket</category><guid>https://blog.carno.pl/posts/culture/</guid><pubDate>Mon, 07 Jul 2025 20:18:07 GMT</pubDate></item><item><title>stdio buffering</title><link>https://blog.carno.pl/posts/stdio-buffering/</link><dc:creator>Carno</dc:creator><description>&lt;p&gt;In another episode of preserving stuff I kept in Pocket, today two links on the topic of stdio
+buffering - not something I need daily, but it already saved me some time debugging in the past.&lt;/p&gt;
+&lt;p&gt;One by Jonathan Perkin&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="https://blog.carno.pl/posts/stdio-buffering/#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt; and the other by Pádraig Brady&lt;sup id="fnref:2"&gt;&lt;a class="footnote-ref" href="https://blog.carno.pl/posts/stdio-buffering/#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;&lt;a href="https://perkin.org.uk/posts/how-to-fix-stdio-buffering.html"&gt;https://perkin.org.uk/posts/how-to-fix-stdio-buffering.html&lt;/a&gt; &lt;a class="footnote-backref" href="https://blog.carno.pl/posts/stdio-buffering/#fnref:1" title="Jump back to footnote 1 in the text"&gt;↩&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:2"&gt;
+&lt;p&gt;&lt;a href="https://www.pixelbeat.org/programming/stdio_buffering/"&gt;https://www.pixelbeat.org/programming/stdio_buffering/&lt;/a&gt; &lt;a class="footnote-backref" href="https://blog.carno.pl/posts/stdio-buffering/#fnref:2" title="Jump back to footnote 2 in the text"&gt;↩&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description><category>linkblog</category><category>pocket</category><guid>https://blog.carno.pl/posts/stdio-buffering/</guid><pubDate>Mon, 07 Jul 2025 19:56:15 GMT</pubDate></item><item><title>Being glue</title><link>https://blog.carno.pl/posts/being-glue/</link><dc:creator>Carno</dc:creator><description>&lt;p&gt;Continuing the preservation of some of my Pocket saves, this time a talk from Tanya Reilly - "Being
+glue"&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="https://blog.carno.pl/posts/being-glue/#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt; - on all those little things that make the difference as you get to a senior experience
+level.&lt;/p&gt;
+&lt;p&gt;I like to revisit it, when my frustration level rises as once again I had no possibility to
+finish the worked I planned because of different "distractions".&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Every senior person in an organisation should be aware of the less glamorous - and often
+less-promotable - work that needs to happen to make a team successful. Managed deliberately, glue
+work demonstrates and builds strong technical leadership skills. Left unconscious, it can be
+career limiting. It can push people into less technical roles and even out of the industry.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;&lt;a href="https://www.noidea.dog/glue"&gt;https://www.noidea.dog/glue&lt;/a&gt; &lt;a class="footnote-backref" href="https://blog.carno.pl/posts/being-glue/#fnref:1" title="Jump back to footnote 1 in the text"&gt;↩&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description><category>linkblog</category><category>pocket</category><guid>https://blog.carno.pl/posts/being-glue/</guid><pubDate>Mon, 07 Jul 2025 19:29:59 GMT</pubDate></item><item><title>Lines of communication and team size</title><link>https://blog.carno.pl/posts/lines-of-communication-and-team-size/</link><dc:creator>Carno</dc:creator><description>&lt;p&gt;As Mozilla decided to kill Pocket&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="https://blog.carno.pl/posts/lines-of-communication-and-team-size/#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;, I decided to try the link blog approach described by Simon
+Willison&lt;sup id="fnref:2"&gt;&lt;a class="footnote-ref" href="https://blog.carno.pl/posts/lines-of-communication-and-team-size/#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt; to store some of the links I kept in Pocket and revisited on regular basis.&lt;/p&gt;
+&lt;p&gt;To start with, an informative post by Dave Nicolette on the The LeadingAgile Blog, titled "Lines Of
+Communication and Team Size: Applying Brooks’ Law"&lt;sup id="fnref:3"&gt;&lt;a class="footnote-ref" href="https://blog.carno.pl/posts/lines-of-communication-and-team-size/#fn:3"&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;Working in a corporate environment for over 15 years, I have to share or quote it.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Brooks’ Law is real. Be unpredictably rational: Use it.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;&lt;a href="https://support.mozilla.org/en-US/kb/future-of-pocket"&gt;https://support.mozilla.org/en-US/kb/future-of-pocket&lt;/a&gt; &lt;a class="footnote-backref" href="https://blog.carno.pl/posts/lines-of-communication-and-team-size/#fnref:1" title="Jump back to footnote 1 in the text"&gt;↩&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:2"&gt;
+&lt;p&gt;&lt;a href="https://simonwillison.net/2024/Dec/22/link-blog/"&gt;https://simonwillison.net/2024/Dec/22/link-blog/&lt;/a&gt; &lt;a class="footnote-backref" href="https://blog.carno.pl/posts/lines-of-communication-and-team-size/#fnref:2" title="Jump back to footnote 2 in the text"&gt;↩&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:3"&gt;
+&lt;p&gt;&lt;a href="https://www.leadingagile.com/2018/02/lines-of-communication-team-size-applying-brooks-law/"&gt;https://www.leadingagile.com/2018/02/lines-of-communication-team-size-applying-brooks-law/&lt;/a&gt; &lt;a class="footnote-backref" href="https://blog.carno.pl/posts/lines-of-communication-and-team-size/#fnref:3" title="Jump back to footnote 3 in the text"&gt;↩&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description><category>linkblog</category><category>pocket</category><guid>https://blog.carno.pl/posts/lines-of-communication-and-team-size/</guid><pubDate>Mon, 07 Jul 2025 18:45:03 GMT</pubDate></item></channel></rss>
