@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My part of the web</title><link>https://blog.carno.pl/</link><description>A mix of food for thought and what was once called a tech blog with a sprinkle of today I learned</description><atom:link href="https://blog.carno.pl/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:carno@carno.pl"&gt;Carno&lt;/a&gt; </copyright><lastBuildDate>Mon, 07 Jul 2025 20:27:32 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Culture</title><link>https://blog.carno.pl/posts/culture/</link><dc:creator>Carno</dc:creator><description>&lt;p&gt;In yet another instalment of preserving things I kept in Pocket, a note by Jez Humble&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="https://blog.carno.pl/posts/culture/#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My part of the web</title><link>https://blog.carno.pl/</link><description>A mix of food for thought and what was once called a tech blog with a sprinkle of today I learned</description><atom:link href="https://blog.carno.pl/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href="mailto:carno@carno.pl"&gt;Carno&lt;/a&gt; </copyright><lastBuildDate>Tue, 02 Sep 2025 19:55:16 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Default to APT solver version 3</title><link>https://blog.carno.pl/posts/default-to-apt-solver-3/</link><dc:creator>Carno</dc:creator><description>&lt;p&gt;Today I learned, that Debian still does not default to the new solver&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="https://blog.carno.pl/posts/default-to-apt-solver-3/#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt; - for reasons unknown I
+have assumed it's already used out of the box.&lt;/p&gt;
+&lt;p&gt;As I want to avoid having to think about it or adjust aliases again, I decided to configure it in
+APT's configuration&lt;sup id="fnref:2"&gt;&lt;a class="footnote-ref" href="https://blog.carno.pl/posts/default-to-apt-solver-3/#fn:2"&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;/etc/apt/apt.conf.d/90solver&lt;/code&gt;:&lt;/p&gt;
+&lt;div class="code"&gt;&lt;pre class="code literal-block"&gt;binary::apt::APT::Solver "3.0";
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;&lt;a href="https://blog.jak-linux.org/2024/05/14/solver3/"&gt;https://blog.jak-linux.org/2024/05/14/solver3/&lt;/a&gt; &lt;a class="footnote-backref" href="https://blog.carno.pl/posts/default-to-apt-solver-3/#fnref:1" title="Jump back to footnote 1 in the text"&gt;↩&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:2"&gt;
+&lt;p&gt;&lt;a href="https://discourse.ubuntu.com/t/announcement-3-0-solver-now-default-in-questing-for-apt-get-and-apt-commands/60618"&gt;https://discourse.ubuntu.com/t/announcement-3-0-solver-now-default-in-questing-for-apt-get-and-apt-commands/60618&lt;/a&gt; &lt;a class="footnote-backref" href="https://blog.carno.pl/posts/default-to-apt-solver-3/#fnref:2" title="Jump back to footnote 2 in the text"&gt;↩&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description><category>Debian</category><category>TIL</category><guid>https://blog.carno.pl/posts/default-to-apt-solver-3/</guid><pubDate>Tue, 02 Sep 2025 19:03:34 GMT</pubDate></item><item><title>Culture</title><link>https://blog.carno.pl/posts/culture/</link><dc:creator>Carno</dc:creator><description>&lt;p&gt;In yet another instalment of preserving things I kept in Pocket, a note by Jez Humble&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="https://blog.carno.pl/posts/culture/#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 &lt;p&gt;While it was published a while ago, I find it insightful even currently. I especially like to
 revisit the Ron Westrum's model.&lt;/p&gt;
 &lt;div class="footnote"&gt;
